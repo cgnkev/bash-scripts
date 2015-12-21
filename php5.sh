@@ -23,7 +23,7 @@ fi
 ## Use the latest PHP repos :)
 #############################################################################
 sudo apt-get install -y python-software-properties
-echo "\n" | sudo -S add-apt-repository ppa:ondrej/php5
+echo "\n" | sudo -S add-apt-repository ppa:ondrej/php5-5.6
 sudo apt-get -y update
 
 #############################################################################
